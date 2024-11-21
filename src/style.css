@@ -1,0 +1,85 @@
+/* Grundinställningar för body */
+body {
+    font-family: Arial, sans-serif; /* Anger typsnitt */
+    background-color: #f4f4f9; /* Ljus bakgrundsfärg */
+    margin: 0; /* Tar bort marginaler */
+    padding: 0; /* Tar bort padding */
+}
+
+/* Container för innehållet */
+.container {
+    max-width: 600px; /* Maximal bredd */
+    margin: 20px auto; /* Centrerar containern horisontellt och ger vertikala marginaler */
+    padding: 20px; /* Inre avstånd runt innehållet */
+    background: #fff; /* Vit bakgrundsfärg */
+    border-radius: 8px; /* Rundade hörn */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Lätt skugga runt containern */
+}
+
+/* Stil för huvudrubriken */
+h1 {
+    text-align: center; /* Centrerar texten */
+}
+
+/* Formuläret */
+form {
+    display: flex; /* Använder flexbox för layout */
+    flex-direction: column; /* Staplar elementen vertikalt */
+    gap: 10px; /* Avstånd mellan formulärets element */
+}
+
+/* Textinmatning i formuläret */
+input {
+    padding: 10px; /* Inre avstånd */
+    font-size: 16px; /* Textstorlek */
+    border: 1px solid #ddd; /* Tunn grå kant */
+    border-radius: 4px; /* Rundade hörn */
+}
+
+/* Stil för knappar */
+button {
+    padding: 10px 15px; /* Inre avstånd för bättre klickyta */
+    font-size: 16px; /* Textstorlek */
+    color: #fff; /* Vit textfärg */
+    background-color: #007bff; /* Blå bakgrund */
+    border: none; /* Tar bort kantlinjer */
+    border-radius: 4px; /* Rundade hörn */
+    cursor: pointer; /* Muspekare ändras till "klicka" */
+}
+
+/* Effekt när muspekaren är över knappen */
+button:hover {
+    background-color: #0056b3; /* Mörkare blå när muspekaren är över */
+}
+
+/* Lista för filmer */
+.movie-list {
+    list-style: none; /* Tar bort standardlista-styling (inga punkter) */
+    padding: 0; /* Tar bort inre avstånd */
+}
+
+/* Stil för varje film i listan */
+.movie-item {
+    display: flex; /* Flexbox för att justera innehållet horisontellt */
+    justify-content: space-between; /* Sprider ut innehållet jämnt */
+    align-items: center; /* Vertikal centrering */
+    background: #f9f9f9; /* Ljus bakgrundsfärg */
+    padding: 10px; /* Inre avstånd */
+    border: 1px solid #ddd; /* Tunn grå kant */
+    border-radius: 4px; /* Rundade hörn */
+    margin: 5px 0; /* Vertikalt avstånd mellan filmerna */
+}
+
+/* Stil för filmens detaljer */
+.movie-details {
+    flex: 1; /* Låter texten ta upp så mycket utrymme som möjligt */
+    word-break: break-word; /* Bryter långa ord eller titlar så de inte går utanför */
+}
+
+/* Stil för knapparna bredvid varje film */
+.movie-buttons {
+    display: flex; /* Använder flexbox för att placera knapparna bredvid varandra */
+    gap: 10px; /* Avstånd mellan knapparna */
+}
+
+
